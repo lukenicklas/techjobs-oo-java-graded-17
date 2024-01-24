@@ -17,8 +17,9 @@ public class Job {
         id = nextId;
         nextId++;
     }
+    //created a second constructor that takes the five parameters and assigns them to the corresponding fields.
     public Job(String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency) {
-        this(); //created a second constructor that takes the five parameters
+        this(); //calls the empty constructor
         this.name = name;
         this.employer = employer;
         this.location = location;
